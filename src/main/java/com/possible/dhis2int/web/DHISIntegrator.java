@@ -207,7 +207,7 @@ public class DHISIntegrator {
 
 		submittedDataStore.write(submission);
 		submissionLog.log(program, userName, comment, status, filePath);
-		recordLog(userName, program, year, month, submission.getInfo(), status, comment);
+        // recordLog(userName, program, year, month, submission.getInfo(), status, comment);
 
 		return submission.getInfo();
 	}
